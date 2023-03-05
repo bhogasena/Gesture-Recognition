@@ -28,8 +28,8 @@ Created  Convolutional 3D, Simple RNN, LSTM and GRU Models and final inferences 
 
 # Final Inferences
 
-|Experiment Number|Model|Result|Decision+Explanation|
-|-----------------|-------|-------------|---------------------|-----------------------|
+| Experiment Number | Model | Result|Decision+Explanation |
+| ----------------- | ------- | ------------- | --------------------- | ----------------------- |
                          
 
 ## Technologies Used
