@@ -29,6 +29,12 @@ Created  Convolutional 3D, Simple RNN, LSTM and GRU Models and final inferences 
 # Final Inferences
 
 <table>
+     <tr>
+          <th>Experiment No</th>
+          <th>Model</th>
+          <th>Result</th>
+          <th>Decision+Explanation</th>          
+     </tr>
 </table>
                          
 
