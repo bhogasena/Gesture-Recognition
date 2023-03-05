@@ -26,8 +26,6 @@ Telecom Users Usage Dataset [here](https://drive.google.com/uc?id=1ehyrYBQ5rbQQe
 ## Conclusions
 Created  Convolutional 3D, Simple RNN, LSTM and GRU Models and final inferences are as below
 
-# Final Inferences
-
 <table>
      <tr>
           <th>Experiment No</th>
@@ -36,8 +34,29 @@ Created  Convolutional 3D, Simple RNN, LSTM and GRU Models and final inferences 
           <th>Decision+Explanation</th>          
      </tr>
      <tr><td>1</td><td>Conv3D</td><td>Accuracy: 55</td><td>Used Image resize to 100*100 with Batch Size 10; Epochs - 10</td></tr>
+     <tr><td>2</td><td>Conv3D</td><td>Accuracy: 78</td><td>Generator function updated to sort the frames inside each folder and same model got the very good accuracy compared to experiment 1.
+So sort=”yes” in generator for remaining experiments below.
+</td></tr>
+     <tr><td>3</td><td>Conv3D</td><td>Accuracy: 63</td><td>Increased the batch size from 10 to 50 caused the model to take higher number of epochs to get optimal value of loss function. Even after 20 epochs training accuracy is around 70 only.
+
+So used batch 10 for remaining experiments. 
+</td></tr>
+     <tr><td>4</td><td>Simple RNN</td><td>Accuracy: >97</td><td>Total params: 24,133,797
+Trainable params: 24,080,677
+Non-trainable params: 53,120
+</td></tr>
+     <tr><td>5</td><td>LSTM</td><td>Accuracy: >94</td><td>LSTM needs 4 times of SimpleRNN layer params and as Accuracy compared to SimpleRNN has not improved.</td></tr>
+     <tr><td>6</td><td>GRU</td><td>Accuracy: >96</td><td>Total params: 24,177,125
+Trainable params: 24,124,005
+Non-trainable params: 53,120
+
+Accuracy for GRP model is also same as Simple RNN and LSTM.
+
+Among all of these Simple RNN uses less trainable params and so that is final model.
+</td></tr>
 </table>
                          
+# Final Inferences
 
 ## Technologies Used
 - numpy - version 1.21.6
