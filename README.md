@@ -35,6 +35,7 @@ Created  Convolutional 3D, Simple RNN, LSTM and GRU Models and final inferences 
           <th>Result</th>
           <th>Decision+Explanation</th>          
      </tr>
+     <tr><td>1</td><td>Conv3D</td><td>Accuracy: 55</td><td>Used Image resize to 100*100 with Batch Size 10; Epochs - 10</td></tr>
 </table>
                          
 
