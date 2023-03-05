@@ -58,12 +58,15 @@ Among all of these Simple RNN uses less trainable params and so that is final mo
                          
 # Final Inferences
 
+As SimpleRNN, LSTM and GRU all are giving more or less same accuracy choosing SimpleRNN as final model because of simple model compared to LSTM and GRU.
+
 ## Technologies Used
 - numpy - version 1.21.6
 - matplotlib - version 3.2.2
 - seaborn - version 0.11.2
 - sklearn - version 1.0.2
 - keras - version 2.9.0
+- tensorflow - 
 
 ## Contact
 Created by [@bhogasena] - feel free to contact me!
